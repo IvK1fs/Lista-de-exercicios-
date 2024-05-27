@@ -16,6 +16,9 @@ cin >> num[i];
   for(int i = 0; i < 6; i++){
     
     cout << num[i] << endl;
+    
   }
+  
+  return 0; 
   
 }
