@@ -58,5 +58,6 @@ cout << endl << "vetor quadrado: ";
 imprimirvetor( vetorquadrado,tamanho);
 
 
-
+return 0;
+  
 }
