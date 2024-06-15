@@ -7,9 +7,9 @@ int main() {
     const int tamanho = 10;
     vector<int> vetorA(tamanho);
     vector<int> vetorB(tamanho);
-    vector<int> vetorC(tamanho * 2); // Vetor C terá tamanho 20 (10 pares + 10 ímpares)
+    vector<int> vetorC(tamanho * 2); 
 
-    // Leitura dos vetores A e B
+    
     cout << "Digite os " << tamanho << " números inteiros do vetor A:" << endl;
     for (int i = 0; i < tamanho; ++i) {
         cout << "Número " << (i + 1) << ": ";
@@ -22,13 +22,13 @@ int main() {
         cin >> vetorB[i];
     }
 
-    // Preenchimento do vetor C
+    
     for (int i = 0; i < tamanho; ++i) {
-        vetorC[2 * i] = vetorA[i];       // Posições pares de C recebem elementos de A
-        vetorC[2 * i + 1] = vetorB[i];   // Posições ímpares de C recebem elementos de B
+        vetorC[2 * i] = vetorA[i];   
+        vetorC[2 * i + 1] = vetorB[i];   
     }
 
-    // Impressão do vetor C na tela
+    
     cout << "\nVetor C (Posições pares de A e ímpares de B):" << endl;
     for (int i = 0; i < tamanho * 2; ++i) {
         cout << vetorC[i] << " ";
