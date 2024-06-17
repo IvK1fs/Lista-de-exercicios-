@@ -24,6 +24,15 @@ int main() {
                     }
                 }
             }
+
+       cout << "\nMatriz inserida:\n";
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            cout << matriz[i][j] << " ";
+        }
+        cout << endl;
+
+         
      cout << "A soma dos elementos abaixo da diagonal principal da matriz é: " << soma << endl;
 
         
