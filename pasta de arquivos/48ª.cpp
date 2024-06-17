@@ -1,4 +1,5 @@
 
+
 #include <iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ const int SIZE = 3;
 
 int main() {
      int matriz[SIZE][SIZE];
-       
+
 
     cout << "Digite os elementos da matriz " << SIZE << "x" << SIZE << ":" << endl;
     for (int i = 0; i < SIZE; ++i) {
@@ -15,7 +16,7 @@ int main() {
             cin >> matriz[i][j];
         }
     }
-        
+
     int soma = 0;
     for (int i = 0; i < SIZE; ++i) {
         for (int j = 0; j < SIZE; ++j) {
@@ -32,11 +33,12 @@ int main() {
         }
         cout << endl;
 
-         
+    }
      cout << "A soma dos elementos abaixo da diagonal principal da matriz é: " << soma << endl;
 
-        
-    }
+
+    
+}
 
 
 
